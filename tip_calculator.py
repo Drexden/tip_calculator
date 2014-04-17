@@ -10,7 +10,7 @@ total = meal_with_tax + (tip_value)
 print "The base cost of your meal was %d" % (meal)
 print "you need to pay %d for tax" % (tax)
 print "tipping at a rate of 15%%, you should leave %d for tax" % (tax_value)
-print "the grand total of your meal is %d" % (total)
+print "grand total of your meal is %d" % (total)
 
 #raw_input
 meal = float(raw_input("what is the base cost of your meal? "))
